@@ -1,0 +1,36 @@
+The Internet
+
+
+Nothing special, speaks about what the internet is and how it connects machines
+
+--------------------------------------------------------------------
+
+The Web
+
+
+Talks about HTTP, and what the world wide web is. How URLS are apart of the web.
+
+Hyper text transfer protocol: Request -> response
+
+
+
+--------------------------------------------------------------------
+
+The Request/Reponse Cycle
+
+Servers job is to send "instructions" with how to make the data visible (From the code JS, HTML, CSS)
+
+
+--------------------------------------------------------------------
+
+Front end / Back end
+
+--------------------------------------------------------------------
+
+HTML/CSS/JS WHat do they do?
+
+The Purple Dino Danced
+
+Purple - CSS(Adjective)  The "look" of the page: Makes it look good
+Dino - HTML(Noun) The "what" of the page : underlying structure
+Danced - JS(Verbs) The "action" of the page: Creates the actual function of the page

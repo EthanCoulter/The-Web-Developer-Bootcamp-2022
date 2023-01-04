@@ -1,0 +1,5 @@
+What is HTML5?
+
+MDN has great definition
+
+HTML5 is the new version of HTML with new data, but also new technologies, better performance, etc.

@@ -1,0 +1,26 @@
+Intro to HTML
+HTML = Hypertext Markup Language
+
+Start the first HTML 
+
+--------------------------------------------------------------------
+
+Boilerplate
+
+
+HTML Skeleton = Boilerplate
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+#Content Here
+</body>
+</html>
+
+Auto boiler = ! tab
+
+How to fix formatting = shift alt f
+
+BAD PRACTICE TO RESIZE IMG IN HTML, RESIZE WITH CSS
