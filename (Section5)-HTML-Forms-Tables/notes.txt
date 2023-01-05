@@ -1,0 +1,12 @@
+HTML Tables
+
+Tables were used early on as a way to organize data on a website
+
+Many elements can be within a Tables
+
+--------------------------------------------------------------------
+Forms
+
+Element to encapsulate multiple elements
+
+If a button is inside of a form, if not specified it submits the form
