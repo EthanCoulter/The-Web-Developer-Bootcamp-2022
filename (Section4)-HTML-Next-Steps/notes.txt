@@ -3,3 +3,45 @@ What is HTML5?
 MDN has great definition
 
 HTML5 is the new version of HTML with new data, but also new technologies, better performance, etc.
+
+
+--------------------------------------------------------------------
+
+Block vs Inline Elements
+
+Inline -> Think of people in a line and the element we place is "In line". Takes space up space vertically
+Block -> Stacked like blocks and the element is "a block". Takes up space horizontally
+
+Div should be used to group elements together, CSS will shape and design the contents : BLOCK ELEMENT
+Span can use to wrap certain text inside of a <p>, great to style things : INLINE ELEMENT
+
+
+Horizontal Break  = <hr>
+Line break = <br>
+Super script  = <sup> 
+Sub script  = <sub>
+
+--------------------------------------------------------------------
+
+HTML Entities
+Start with & and end with ;
+Characters that arent easy to type on a keyboard
+
+--------------------------------------------------------------------
+
+Semantic Markup
+
+naming and using names that pertain to the info that inside of them
+Crawling pages with poor semantic markup makes it astronomically harder
+
+Other names for <div> are 
+<section>
+<article>
+<nav>
+<main> -> should only have content pertaining to the page (no side bars, navbar)
+<header>
+<footer>
+<aside>
+<summary>
+<details>
+
