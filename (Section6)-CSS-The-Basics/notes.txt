@@ -1,0 +1,12 @@
+CSS
+
+DONT be intimidated! CSS is huge
+
+MDN CSS sheet is useful
+
+Background != Background-color
+
+
+Font types
+
+Different units of measurement Relative and Absolute measurements

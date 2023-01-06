@@ -1,0 +1,15 @@
+
+
+h2 {
+    color: rgb(255,10,10);
+    text-shadow: 2cm;
+    background-color: rgb(89, 151, 0);
+}
+button {
+     color: magenta;
+     background-color: red;
+}
+
+p {
+    color: aliceblue;
+}
