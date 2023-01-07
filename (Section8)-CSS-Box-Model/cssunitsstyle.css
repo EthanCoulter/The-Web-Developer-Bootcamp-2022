@@ -1,0 +1,44 @@
+section {
+    background-color: grey;
+    height: 800px;
+    width: 800px;
+}
+div {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 50%;
+}
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 100%;
+}
+#ems {
+    font-size: 50px;
+}
+#ems p {
+    font-size: 1em;
+}
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: .5em;
+    background-color: aqua;
+    color: white;
+}
+#ems ul {
+    font-size: 1.5em;
+}
+
+#rems h2{
+    font-size: 3rem;
+}
+#rems h2{
+    font-size: 2rem;
+}
+#rems ul{
+    font-size: .8rem;
+}
+#rems button {
+    font-size: 1.5rem;
+}
