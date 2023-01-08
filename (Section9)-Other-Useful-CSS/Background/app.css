@@ -1,0 +1,13 @@
+section {
+    width: 80%;
+    height: 800px;
+    /* background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2Fpresto%2F2019%2F11%2F23%2FPDEM%2Ff0e863ec-bb9d-46b2-9357-7f406b8d669e-Iowa_State_football_vs._Kansas_6626.JPG%3Fcrop%3D4107%2C2311%2Cx0%2Cy234%26width%3D3200%26height%3D1680%26fit%3Dbounds&f=1&nofb=1&ipt=b67870d96806f77212d3e117a86987192597a70b12ce5531d032907845116b59&ipo=images);
+    background-size: cover;
+    background-position: bottom; */
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2Fpresto%2F2019%2F11%2F23%2FPDEM%2Ff0e863ec-bb9d-46b2-9357-7f406b8d669e-Iowa_State_football_vs._Kansas_6626.JPG%3Fcrop%3D4107%2C2311%2Cx0%2Cy234%26width%3D3200%26height%3D1680%26fit%3Dbounds&f=1&nofb=1&ipt=b67870d96806f77212d3e117a86987192597a70b12ce5531d032907845116b59&ipo=images) no-repeat center/cover;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    font-size: 80px
+}
