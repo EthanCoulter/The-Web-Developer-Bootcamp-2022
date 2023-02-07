@@ -1,0 +1,9 @@
+img {
+    height: 500px;
+    width: 500px;
+}
+
+#scoreSection {
+    font-weight: bolder;
+    font-size: x-large;
+}
