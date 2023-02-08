@@ -1,11 +1,14 @@
 img {
-    height: 500px;
-    width: 500px;
+    width: 100%;
+}
+body {
+    height: 1000px;
+    width: 100%;
 }
 
 #scoreSection {
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 3rem;
 }
 
 

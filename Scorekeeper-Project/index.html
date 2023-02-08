@@ -14,10 +14,10 @@
 
 <body>
 
-    <section class="container">
+    <section class="container shadow text-center">
         <img src="pingpong.png" alt="">
-        <h3>Ping Pong Score Keeper</h3>
-        <hr>
+        <h3 class="shadow-sm">Ping Pong Score Keeper</h3>
+
         <section id="scoreSection">
             <span id="playerOne">0</span>
             <span> to </span>
@@ -25,9 +25,9 @@
         </section>
         <p>Use the buttons below to keep score</p>
 
-        <body class="row">
-            <label for="maxScore">Playing To</label>
-            <select name="maxScore" id="maxScore">
+        <div class="d-block row my-3 ml-0">
+            <label class="font-weight-bolder" for="maxScore" >Playing To</label>
+            <select  class="rounded-pill" name="maxScore" id="maxScore">
                 <option value="5">5</option>
                 <option value="6">6</option>
                 <option value="7" selected>7</option>
@@ -37,14 +37,13 @@
                 <option value="11">11</option>
                 <option value="12">12</option>
             </select>
+        </div>
 
-        </body>
-
-        <body class="d-flex flex-column">
-            <button type="button" id="playerOneButton" class="btn btn-outline-success">+1 Player One</button>
-            <button id="playerTwoButton" class="btn btn-outline-primary">+1 Player Two</button>
-            <button id="resetScore" class="btn btn-outline-danger">Reset</button>
-        </body>
+        <div class="row d-flex justify-content-center">
+            <button type="button" id="playerOneButton" class="col btn btn-outline-success">+1 Player One</button>
+            <button id="playerTwoButton" class="col btn btn-outline-primary">+1 Player Two</button>
+            <button id="resetScore" class="col btn btn-outline-danger">Reset</button>
+        </div>
 
     </section>
 

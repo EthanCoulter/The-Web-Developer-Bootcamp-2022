@@ -14,20 +14,27 @@ let gameOver = false
 
 
 maxScore.addEventListener('change', () => {
+    if (maxScore.value > maxScoreVal){
+        gameOver = false
+        playerOneScore.classList.remove('winner', 'loser')
+        playerTwoScore.classList.remove('winner', 'loser')
+    }
     maxScoreVal = Number(maxScore.value)
+    
 })
 
 
 playerOneIncrease.addEventListener('click', () => {
     if (!gameOver) {
         p1Score += 1
+        playerOneScore.innerText = p1Score
         if (p1Score === maxScoreVal) {
             gameOver = true
-            playerOneScore.className = 'winner'
-            playerTwoScore.className = 'loser'
+            playerOneScore.classList.add('winner')
+            playerTwoScore.classList.add('loser')
 
         }
-        playerOneScore.innerText = p1Score
+        
 }
 })
 
@@ -35,12 +42,13 @@ playerOneIncrease.addEventListener('click', () => {
 playerTwoIncrease.addEventListener('click', () => {
     if (!gameOver) {
         p2Score += 1
+        playerTwoScore.innerText = p2Score
         if (p2Score === maxScoreVal) {
             gameOver = true
-            playerTwoScore.className = 'winner'
-            playerOneScore.className = 'loser'
+            playerTwoScore.classList.add('winner')
+            playerOneScore.classList.add('loser')
         }
-        playerTwoScore.innerText = p2Score
+        
 }
 })
 
@@ -51,7 +59,7 @@ resetButton.addEventListener('click', () => {
     p2Score = 0
     playerTwoScore.innerText = p2Score
     console.log(maxScoreVal)
-    playerOneScore.className = ''
-    playerTwoScore.className = ''
+    playerOneScore.classList.remove('winner', 'loser')
+    playerTwoScore.classList.remove('winner', 'loser')
     gameOver = false
 })
