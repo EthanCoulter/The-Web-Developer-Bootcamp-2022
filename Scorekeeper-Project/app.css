@@ -7,3 +7,12 @@ img {
     font-weight: bolder;
     font-size: x-large;
 }
+
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

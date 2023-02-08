@@ -5,23 +5,41 @@ const playerTwoIncrease = document.querySelector('#playerTwoButton')
 const resetButton = document.querySelector('#resetScore')
 const maxScore = document.querySelector('#maxScore')
 
-playerOneScore.value = 0
-playerTwoScore.value = 0
+
+let p1Score = 0
+let p2Score = 0
+let gameOver = false
+
+
+
 
 playerOneIncrease.addEventListener('click', () => {
-    playerOneScore.value += 1
-    playerOneScore.innerText = playerOneScore.value
+    if (!gameOver) {
+        p1Score += 1
+        if (p1Score === maxScore.value) {
+            gameOver = true
+            alert("player one has won")
+        }
+        playerOneScore.innerText = p1Score
+}
 })
+
 
 playerTwoIncrease.addEventListener('click', () => {
-    playerTwoScore.value += 1
-    playerTwoScore.innerText = playerTwoScore.value
+    if (!gameOver) {
+        p2Score += 1
+        if (p2Score === maxScore.value) {
+            gameOver = true
+        }
+        playerTwoScore.innerText = p2Score
+}
 })
+
 
 resetButton.addEventListener('click', () => {
-    playerOneScore.value = 0
-    playerOneScore.innerText = playerOneScore.value
-    playerTwoScore.value = 0
-    playerTwoScore.innerText = playerTwoScore.value
+    p1Score = 0
+    playerOneScore.innerText = p1Score
+    p2Score = 0
+    playerTwoScore.innerText = p2Score
+    console.log(maxScore.value)
 })
-
