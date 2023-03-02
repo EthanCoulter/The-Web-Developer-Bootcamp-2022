@@ -2,8 +2,8 @@ const searchForm = document.querySelector("#searchForm")
 searchForm.addEventListener('submit', async function (e) {
     e.preventDefault()
     const userSearch = searchForm.elements.query.value;
-
-    const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${userSearch}`);
+    const config = { params: {q: userSearch} }
+    const res = await axios.get(`https://api.tvmaze.com/search/shows`, config);
     console.log(res.data);
     displayImage(res.data);
     searchForm.elements.query.value = '';
