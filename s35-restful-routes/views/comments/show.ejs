@@ -11,5 +11,9 @@
     <h2> <%= comment.comment %> - <%=comment.username %></h2>
 
     <a href="/comments">Back to comments</a>
+    <a href="/comments/<%=comment.id%>/edit">Edit COmment</a>
+    <form method="POST" action="/comments/<%= comment.id %>?_method=DELETE">
+        <button>Delete</button>
+    </form>
 </body>
 </html>
